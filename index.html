@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Médico</title>
+
+    <!-- Link Do font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Link das customizações css  -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo"> <img src="img/cmc.webp" class="logo_img"> Centro Médico Cupecê</a>
+
+
+        <nav class="navbar">
+            <a href="#home"><i class="fas fa-home" style="padding-right: 4px; font-size: 25px;"></i>Home</a>
+            <a href="#servicos"><i class="fas fa-stethoscope"
+                    style="padding-right: 4px; font-size: 25px;"></i>Serviços</a>
+            <a href="#localizacao"><i class="fas fa-map-marker-alt "
+                    style="padding-right:  4px; font-size: 25px;"></i>Localização</a>
+            <a href="#agendamento"> <i class="far fa-calendar-alt"
+                    style="padding-right: 4px; font-size: 25px;"></i>Agendamento</a>
+            <a href="login.html"> <i class="fas fa-sign-in-alt"
+                    style="padding-right: 4px; font-size: 25px;"></i>Login</a>
+        </nav>
+
+        <div id="menu-botao" class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- Fim da Seção header -->
+
+    <!-- Inicio da Seção Home  -->
+
+    <section class="home" id="home">
+
+        <div class="imagem">
+            <img src="img/home_img.webp" alt="">
+        </div>
+
+        <div class="conteudo">
+            <h3 style="text-align: center;">Centro Médico Cupecê</h3>
+            <p>Fundada em 1983, o Centro Médico Cupecê busca oferecer o melhor atendimento aos seus pacientes. Agrega
+                diversas especialidades médicas em um mesmo local, com ambiente e equipe acolhedor. </p>
+
+            <p>Localizada na Região Jardim Jabaquara, em São Paulo, a Clínica possui toda a estrutura necessária para
+                assegurar a comodiade dos pacientes. Nosso espaço oferece estacionamento a 200mts da clínica , uma
+                equipe médica altamente qualificado, que visam o aumento significativo da qualidade de vida de nossos
+                clientes.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Fim da seção Home -->
+
+    <!-- Inicio da Seção Ícones  -->
+
+    <section class="icones-container">
+
+        <div class="icones">
+            <i class="fas fa-user-md"></i>
+            <h3>12+</h3>
+            <p>Médicos</p>
+        </div>
+
+        <div class="icones">
+            <i class="fas fa-users"></i>
+            <h3>400+</h3>
+            <p>Pacientes semanais</p>
+        </div>
+
+        <div class="icones">
+            <i class="fas fa-procedures"></i>
+            <h3>20+</h3>
+            <p>Consultórios</p>
+        </div>
+
+
+    </section>
+
+    <!-- Fim da Seção de ícones -->
+
+    <!-- Inicio da Seção Especialidades Médicas -->
+
+    <section class="servicos" id="servicos">
+
+
+        <div class="conteudo">
+            <h3 style="text-align: center; margin-top: -7rem;">Especialidades Médicas </h3>
+
+            <p> Uma especialidade médica é um ramo da prática médica que se concentra em um grupo definido de pacientes,
+                doenças, habilidades ou filosofia.</p>
+
+            <p>O centro médico Cupecê oferece mais de 17 especialidades médicas para seus pacientes.
+            </p>
+
+            <p> Para saber quais elas são além de obter mais detalhes sobre elas, pressione o botão "Selecionar" a
+                seguir e selecione a especialidade desejada.</p>
+
+        </div>
+
+        <div class="conteudo">
+
+            <select class="serv" name="teste" onchange="javascript:mostraInfo(this);">
+                <option value="0" hidden>Selecionar</option>
+                <option value="1">Acupuntura Médica</option>
+                <option value="2">Cardiologia</option>
+                <option value="3">Clínica Médica</option>
+                <option value="4">Cirurgia Geral</option>
+                <option value="5">Cirurgia Cabeça e Pescoço</option>
+                <option value="6">Cirurgia Plástica</option>
+                <option value="7">Dermatologia</option>
+                <option value="8">Fisiatria - tratamento de dor</option>
+                <option value="9">Gastroenterologia</option>
+                <option value="10">Ginecologia e Obstetrícia</option>
+                <option value="11">Medicina Estética</option>
+                <option value="12">Neurologia</option>
+                <option value="13">Otorrinolaringologia</option>
+                <option value="14">Ortopedia</option>
+                <option value="15">Pediatria</option>
+                <option value="16">Psiquiatria</option>
+                <option value="17">Urologia</option>
+            </select>
+
+        </div>
+
+        <!-- Inicio do Serviço Acupuntura Médica-->
+        <div class="conteudo" id="serv" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/acupuntura.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Acupuntura Médica </h3>
+                    <p>Sua aplicação é feita diretamente no músculo responsável pela formação da linha ou ruga de
+                        expressão, causando seu relaxamento temporário. </p>
+
+                    <p>Pode ser aplicada nas linhas frontais, “pés-de-galinha” e vincos entre as sobrancelhas.
+                    </p>
+
+                    <p>A duração do efeito terapêutico é de aproximadamente 4 a 6 meses.
+                    </p>
+
+                    <p>Faça uma avaliação com nossa médica. Estamos à disposição para orientá-lo quanto ao melhor
+                        tratamento para o seu caso.
+                    </p>
+
+                    <p><b>Médico(a):</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 1-->
+
+        <!-- Inicio do Serviço 2-->
+        <div class="conteudo" id="serv2" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/cardiologia.webp" style="border-radius: 100px; width: 90%; margin-bottom: 2rem;"
+                        alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Cardiologia </h3>
+                    <p>Corpo saudável, bem estar físico e psíquico, é possível com atividades físicas que agradam nossa
+                        mente. </p>
+
+                    <p>O pilates identifica os objetivos do paciente, preveni e trata com exercícios, adaptando e
+                        adequando a cada tipo do paciente, baseando-se em princípios de respiração, controle,
+                        concentração, estabilização, fluidez de movimento e precisão buscando reeducação postural,
+                        aumento do tônus muscular e flexibilidade corporal.
+                    </p>
+
+                    <p>Tendo como objetivo o retorno às atividades com qualidade de vida e bem estar.
+                    </p>
+
+                    <p>Os tratamentos incluem recursos terapêuticos como eletroterapia, alongamento, fortalecimento
+                        muscular e terapias manuais.</p>
+
+                    <p><b>Tratamento indicado:</b> Fortalecimento muscular, Prevenção de lesões, Melhora da
+                        flexibilidade corporal, Bem estar</p>
+
+                    <p><b>Médicos:</b> </p>
+                </div>
+
+            </div>
+        </div>
+        <!-- Fim do Serviço 2-->
+
+        <!-- Inicio do Serviço 3-->
+        <div class="conteudo" id="serv3" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/rpg.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Clinica Médica </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 3-->
+
+        <!-- Inicio do Serviço 4-->
+        <div class="conteudo" id="serv4" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/cirurgia_geral.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Cirurgia Geral </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fim do Serviço 4-->
+
+        <!-- Inicio do Serviço 5 -->
+        <div class="conteudo" id="serv5" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/cirurgia_cabeca.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Cirurgia Cabeça e Pescoço </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 5-->
+
+        <!-- Inicio do Serviço 6-->
+        <div class="conteudo" id="serv6" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/cirurgia_plastica.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Cirurgia Plástica </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 6-->
+
+        <!-- Inicio do Serviço 7-->
+        <div class="conteudo" id="serv7" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/dermatologia.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Dermatologia </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 7-->
+
+        <!-- Inicio do Serviço 8-->
+        <div class="conteudo" id="serv8" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/fisiatria.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Fisiatria - Tratamento de dor </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 8-->
+
+        <!-- Inicio do Serviço 9-->
+        <div class="conteudo" id="serv9" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/estomago.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Gastroenterologia </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 9-->
+
+        <!-- Inicio do Serviço 10-->
+        <div class="conteudo" id="serv10" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/giinecologista.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Ginecologia </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: 0rem;">Obstetrícia </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+
+                <div class="imagem">
+                    <img src="img/Obstretria.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 0rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+            </div>
+        </div>
+        <!-- Fim do Serviço 10-->
+
+        <!-- Inicio do Serviço 11-->
+        <div class="conteudo" id="serv11" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/estetica.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Medicina Estética </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 11-->
+
+        <!-- Inicio do Serviço 12-->
+        <div class="conteudo" id="serv12" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/neurologia.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Neurologia </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 12-->
+
+        <!-- Inicio do Serviço 13-->
+        <div class="conteudo" id="serv13" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/otorrino.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Otorrinolaringologia </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 13-->
+
+        <!-- Inicio do Serviço 14-->
+        <div class="conteudo" id="serv14" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/fisioterapia.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Ortopedia </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 14-->
+
+        <!-- Inicio do Serviço 15-->
+        <div class="conteudo" id="serv15" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/pediatria.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Pediatria </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 15-->
+
+        <!-- Inicio do Serviço 16-->
+        <div class="conteudo" id="serv16" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/psiquiatria.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Psiquiatria </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 16-->
+
+        <!-- Inicio do Serviço 17-->
+        <div class="conteudo" id="serv17" style="display: none;">
+            <div class="home">
+                <div class="imagem">
+                    <img src="img/urologista.webp"
+                        style="border-radius: 100px; width: 86%; margin-top: 1rem; margin-bottom: 10rem;" alt="">
+                </div>
+
+                <div class="conteudo">
+
+                    <h3 style="text-align: center; margin-top: -7rem;">Urologia </h3>
+                    <p>A Reeducação Postural Global, conhecida popularmente por RPG, consiste na reorganização postural
+                        do corpo, através do alongamento do tecido muscular retraído, proporcionando benefícios para os
+                        músculos que mantêm a postura. </p>
+
+                    <p>A RPG trata das desarmonias do corpo humano, sempre levando em consideração as necessidades
+                        individuais de cada paciente. Vale lembrar que a RPG é uma técnica realizada, exclusivamente,
+                        por fisioterapeutas.
+                    </p>
+
+                    <p>Apresenta resultados positivos para diversos problemas, por meio da reeducação do corpo. Podendo
+                        auxiliar no tratamento de patologias, como problemas ortopédicos, labirintite, hérnia de disco,
+                        artrite, artrose, distúrbios circulatórios, entre outros, sendo indicada não apenas para quem
+                        sente dores, mas também para quem busca mais equilíbrio e bem-estar.
+                    </p>
+
+                    <p><b>Médicos:</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Serviço 17-->
+
+    </section>
+    <!-- Fim da seção Serviços -->
+
+
+    <!-- Início da seção Localização  -->
+
+    <section class="localizacao" id="localizacao">
+
+        <h1 class="cabecalho"> <span>Nossa </span> Localização </h1>
+
+        <div class="row">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4610.815378796928!2d-46.66407718502037!3d-23.661922184633106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5aafe4668aa9%3A0xe1aab367efaf582f!2sCentro%20M%C3%A9dico%20Cupec%C3%AA!5e1!3m2!1spt-BR!2sbr!4v1630588360069!5m2!1spt-BR!2sbr"
+                width="1200" height="500" style="border:0; margin: auto;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+
+    </section>
+
+    <!-- Fim da Seção Localização -->
+
+    <!-- Início da Seção agendamento   -->
+
+    <section class="agendamento" id="agendamento">
+
+        <h1 class="cabecalho"> <span>Agende agora</span> sua Consulta </h1>
+
+        <div class="row">
+
+            <div class="imagem">
+                <img src="img/agendar.webp" alt="">
+            </div>
+
+            <div class="conteudo">
+
+                <p>Para agendar a sua consulta, é necessário realizar o cadastro ou login neste site, através da barra
+                    de navegação, ou clicando <a href="login.html" style="font-size: 1.9rem;
+                color: var(--green) ;line-height: 1.8; padding: 1rem 0; text-decoration: none;">aqui</a>. </p>
+
+                <p>Nesta agenda você poderá filtrar através do médico, tratamento desejado, datas, entre outras formas,
+                    para que de forma rápida você realize seu agendamento.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Fim da Seção agendamento -->
+
+    <!-- Início da seção rodapé -->
+
+    <section class="rodape">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Nossos Serviços</h3>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Tratamento Corporal </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Tratamento Facial </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Acupuntura </a>
+            </div>
+
+            <div class="box">
+                <h3>Contato</h3>
+                <a href="#"> <i class="fas fa-phone"></i> (11) 5562-9005 </a>
+                <a href="#"> <i class="fas fa-phone"></i> (11) 5565-0298 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> cmc295@terra.com.br </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> São Paulo, SP - 04384-090 </a>
+            </div>
+
+            <div class="box">
+                <h3>Redes Sociais</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            </div>
+
+        </div>
+
+        <div class="creditos"> Desenvolvido por <span>Centro Médico Cupecê</span> | Todos os Direitos Reservados </div>
+
+    </section>
+
+    <!-- Fim da Seção Rodapé -->
+
+    <!-- custom js file link  -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
