@@ -287,13 +287,13 @@ function agenConsulta1On() {
         let select_conv = document.getElementById("conv1");
         let select_tipo_consulta = document.getElementById("consulta_tipo");
 
-        tipo_nome.innerHTML = nome1.innerHTML;
-        tipo_hora.innerHTML = seleciona.innerHTML;
-        tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
-        tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
-        tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
-        tipo_conv.innerHTML = select_conv.options[select_conv.selectedIndex].innerHTML
-        tipo.innerHTML = select_tipo_consulta.options[select_tipo_consulta.selectedIndex].innerHTML
+        tipo_nome.innerText = nome1.innerText;
+        tipo_hora.innerText = seleciona.innerText;
+        tipo_dia.innerText = select_dia.options[select_dia.selectedIndex].innerText
+        tipo_mes.innerText = select_mes.options[select_mes.selectedIndex].innerText
+        tipo_ano.innerText = select_ano.options[select_ano.selectedIndex].innerText
+        tipo_conv.innerText = select_conv.options[select_conv.selectedIndex].innerText
+        tipo.innerText = select_tipo_consulta.options[select_tipo_consulta.selectedIndex].innerText
     }
 }
 
@@ -375,13 +375,13 @@ function agenConsulta2On() {
         let select_conv = document.getElementById("conv2");
         let select_tipo_consulta = document.getElementById("consulta_tipo");
 
-        tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = seleciona.innerHTML;
-        tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
-        tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
-        tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
-        tipo_conv.innerHTML = select_conv.options[select_conv.selectedIndex].innerHTML
-        tipo.innerHTML = select_tipo_consulta.options[select_tipo_consulta.selectedIndex].innerHTML
+        tipo_nome.innerText = nome2.innerText;
+        tipo_hora.innerText = seleciona.innerText;
+        tipo_dia.innerText = select_dia.options[select_dia.selectedIndex].innerText
+        tipo_mes.innerText = select_mes.options[select_mes.selectedIndex].innerText
+        tipo_ano.innerText = select_ano.options[select_ano.selectedIndex].innerText
+        tipo_conv.innerText = select_conv.options[select_conv.selectedIndex].innerText
+        tipo.innerText = select_tipo_consulta.options[select_tipo_consulta.selectedIndex].innerText
     }
 }
 
@@ -463,13 +463,13 @@ function agenConsulta3On() {
         let select_conv = document.getElementById("conv3");
         let select_tipo_consulta = document.getElementById("consulta_tipo");
 
-        tipo_nome.innerHTML = nome3.innerHTML;
-        tipo_hora.innerHTML = seleciona.innerHTML;
-        tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
-        tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
-        tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
-        tipo_conv.innerHTML = select_conv.options[select_conv.selectedIndex].innerHTML
-        tipo.innerHTML = select_tipo_consulta.options[select_tipo_consulta.selectedIndex].innerHTML
+        tipo_nome.innerText = nome3.innerText;
+        tipo_hora.innerText = seleciona.innerText;
+        tipo_dia.innerText = select_dia.options[select_dia.selectedIndex].innerText
+        tipo_mes.innerText = select_mes.options[select_mes.selectedIndex].innerText
+        tipo_ano.innerText = select_ano.options[select_ano.selectedIndex].innerText
+        tipo_conv.innerText = select_conv.options[select_conv.selectedIndex].innerText
+        tipo.innerText = select_tipo_consulta.options[select_tipo_consulta.selectedIndex].innerText
     }
 }
 
@@ -551,13 +551,13 @@ function agenConsulta4On() {
         let select_conv = document.getElementById("conv4");
         let select_tipo_consulta = document.getElementById("consulta_tipo");
 
-        tipo_nome.innerHTML = nome4.innerHTML;
-        tipo_hora.innerHTML = seleciona.innerHTML;
-        tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
-        tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
-        tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
-        tipo_conv.innerHTML = select_conv.options[select_conv.selectedIndex].innerHTML
-        tipo.innerHTML = select_tipo_consulta.options[select_tipo_consulta.selectedIndex].innerHTML
+        tipo_nome.innerText = nome4.innerText;
+        tipo_hora.innerText = seleciona.innerText;
+        tipo_dia.innerText = select_dia.options[select_dia.selectedIndex].innerText
+        tipo_mes.innerText = select_mes.options[select_mes.selectedIndex].innerText
+        tipo_ano.innerText = select_ano.options[select_ano.selectedIndex].innerText
+        tipo_conv.innerText = select_conv.options[select_conv.selectedIndex].innerText
+        tipo.innerText = select_tipo_consulta.options[select_tipo_consulta.selectedIndex].innerText
     }
 }
 
@@ -639,13 +639,13 @@ function agenConsulta5On() {
         let select_conv = document.getElementById("conv5");
         let select_tipo_consulta = document.getElementById("consulta_tipo");
 
-        tipo_nome.innerHTML = nome5.innerHTML;
-        tipo_hora.innerHTML = seleciona.innerHTML;
-        tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
-        tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
-        tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
-        tipo_conv.innerHTML = select_conv.options[select_conv.selectedIndex].innerHTML
-        tipo.innerHTML = select_tipo_consulta.options[select_tipo_consulta.selectedIndex].innerHTML
+        tipo_nome.innerText = nome5.innerText;
+        tipo_hora.innerText = seleciona.innerText;
+        tipo_dia.innerText = select_dia.options[select_dia.selectedIndex].innerText
+        tipo_mes.innerText = select_mes.options[select_mes.selectedIndex].innerText
+        tipo_ano.innerText = select_ano.options[select_ano.selectedIndex].innerText
+        tipo_conv.innerText = select_conv.options[select_conv.selectedIndex].innerText
+        tipo.innerText = select_tipo_consulta.options[select_tipo_consulta.selectedIndex].innerText
     }
 }
 
@@ -727,13 +727,13 @@ function agenConsulta6On() {
         let select_conv = document.getElementById("conv6");
         let select_tipo_consulta = document.getElementById("consulta_tipo");
 
-        tipo_nome.innerHTML = nome6.innerHTML;
-        tipo_hora.innerHTML = seleciona.innerHTML;
-        tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
-        tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
-        tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
-        tipo_conv.innerHTML = select_conv.options[select_conv.selectedIndex].innerHTML
-        tipo.innerHTML = select_tipo_consulta.options[select_tipo_consulta.selectedIndex].innerHTML
+        tipo_nome.innerText = nome6.innerText;
+        tipo_hora.innerText = seleciona.innerText;
+        tipo_dia.innerText = select_dia.options[select_dia.selectedIndex].innerText
+        tipo_mes.innerText = select_mes.options[select_mes.selectedIndex].innerText
+        tipo_ano.innerText = select_ano.options[select_ano.selectedIndex].innerText
+        tipo_conv.innerText = select_conv.options[select_conv.selectedIndex].innerText
+        tipo.innerText = select_tipo_consulta.options[select_tipo_consulta.selectedIndex].innerText
     }
 }
 
