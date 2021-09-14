@@ -58,7 +58,7 @@ function pacOn () {
                         <p style="font-size: 1.8rem; text-align: left; padding-left: 0.2rem; padding-top: 1rem; "><b>Senha:</b> </p>
                         <input type="password" placeholder="Digite sua senha" class="box" id="senha"  required>
             
-                        <a href="logado_paciente/index.html" class="botao" style="width:60%; font-size: 2rem;">ENTRAR</a>
+                        <a href="logado_paciente/agenda.html" class="botao" style="width:60%; font-size: 2rem;">ENTRAR</a>
 
                         <p  style="font-size: 1.8rem; text-align: center; padding-left: 0.2rem; padding-top: 1rem; ">Não tem conta ainda?</p>
 
