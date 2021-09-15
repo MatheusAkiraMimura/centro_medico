@@ -682,6 +682,41 @@ section:nth-child(even) {
     background: rgb(168, 255, 233);
 }
 
+.botao_agenda_capa {
+    border:1px solid var(--green); 
+    border-radius: 15px; 
+    padding:0.5rem 2rem; 
+    background-color: #fff;
+    
+}
+
+.botao_agenda_capa:hover {
+    border:1px solid var(--green); 
+    border-radius: 15px; 
+    padding:0.5rem 2rem; 
+    color: #fff;
+    background-color: var(--green);
+}
+
+.link_agenda_capa {
+    border:1px solid var(--green); 
+    border-radius: 15px; 
+    padding:1rem 2rem; 
+    background-color: #fff;
+    font-size: 2.2rem;
+    color: var(--green);
+    text-decoration: none;
+}
+
+.link_agenda_capa:hover {
+    border:1px solid var(--green); 
+    border-radius: 15px; 
+    padding:1rem 2rem; 
+    background-color: var(--green); 
+    font-size: 2.2rem;
+    color: #fff;
+    text-decoration: none;
+}
 
 
 /* media queries  */

@@ -29,9 +29,12 @@ const serv14 = document.getElementById('serv14');
 const serv15 = document.getElementById('serv15');
 const serv16 = document.getElementById('serv16');
 const serv17 = document.getElementById('serv17');
-
-
-
+const serv18 = document.getElementById('serv18');
+const serv19 = document.getElementById('serv19');
+const serv20 = document.getElementById('serv20');
+const serv21 = document.getElementById('serv21');
+const serv22 = document.getElementById('serv22');
+const serv23 = document.getElementById('serv23');
 
 function mostraInfo(elemento) {
     if (elemento.value == 1) {
@@ -379,6 +382,66 @@ function mostraInfo(elemento) {
         
     } 
 
+}
+
+function mostraInfo2(elemento2) {
+    if (elemento2.value == 18) {
+        serv19.style = 'display: none;'
+        serv20.style = 'display: none;'
+        serv21.style = 'display: none;'
+        serv22.style = 'display: none;'
+        serv23.style = 'display: none;'
+
+        serv18.style = 'display: block;'
+    
+
+    } else if (elemento2.value == 19) {
+        serv18.style = 'display: none;'
+        serv20.style = 'display: none;'
+        serv21.style = 'display: none;'
+        serv22.style = 'display: none;'
+        serv23.style = 'display: none;'
+
+        serv19.style = 'display: block;'
+ 
+
+                    
+    } else if (elemento2.value == 20) {
+        serv18.style = 'display: none;'
+        serv19.style = 'display: none;'
+        serv21.style = 'display: none;'
+        serv22.style = 'display: none;'
+        serv23.style = 'display: none;'
+
+        serv20.style = 'display: block;'
+        
+    } else if (elemento2.value == 21) {
+        serv18.style = 'display: none;'
+        serv19.style = 'display: none;'
+        serv20.style = 'display: none;'
+        serv22.style = 'display: none;'
+        serv23.style = 'display: none;'
+
+        serv21.style = 'display: block;'
+        
+    } else if (elemento2.value == 22) {
+        serv18.style = 'display: none;'
+        serv19.style = 'display: none;'
+        serv20.style = 'display: none;'
+        serv21.style = 'display: none;'
+        serv23.style = 'display: none;'
+
+        serv22.style = 'display: block;'
+        
+    } else if (elemento2.value == 23) {
+        serv18.style = 'display: none;'
+        serv19.style = 'display: none;'
+        serv20.style = 'display: none;'
+        serv21.style = 'display: none;'
+        serv22.style = 'display: none;'
+
+        serv23.style = 'display: block;'
+    }
 }
 
 
