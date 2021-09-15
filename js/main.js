@@ -56,6 +56,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv.style = 'display: block;'
+
+        window.scrollBy(0, 150)
     
 
     } else if (elemento.value == 2) {
@@ -78,7 +80,7 @@ function mostraInfo(elemento) {
 
         serv2.style = 'display: block;'
  
-
+        window.scrollBy(0, 150)
                     
     } else if (elemento.value == 3) {
         serv.style = 'display: none;'
@@ -99,6 +101,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv3.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 4) {
         serv.style = 'display: none;'
@@ -119,6 +123,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv4.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 5) {
         serv.style = 'display: none;'
@@ -139,6 +145,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv5.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 6) {
         serv.style = 'display: none;'
@@ -159,6 +167,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv6.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 7) {
         serv.style = 'display: none;'
@@ -179,6 +189,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv7.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 8) {
         serv.style = 'display: none;'
@@ -199,6 +211,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv8.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 9) {
         serv.style = 'display: none;'
@@ -219,6 +233,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv9.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 10) {
         serv.style = 'display: none;'
@@ -239,6 +255,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv10.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 11) {
         serv.style = 'display: none;'
@@ -259,6 +277,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv11.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 12) {
         serv.style = 'display: none;'
@@ -279,6 +299,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv12.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 13) {
         serv.style = 'display: none;'
@@ -299,6 +321,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv13.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 14) {
         serv.style = 'display: none;'
@@ -319,6 +343,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv14.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 15) {
         serv.style = 'display: none;'
@@ -339,6 +365,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv15.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 16) {
         serv.style = 'display: none;'
@@ -359,6 +387,8 @@ function mostraInfo(elemento) {
         serv17.style = 'display: none;'
 
         serv16.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento.value == 17) {
         serv.style = 'display: none;'
@@ -379,6 +409,8 @@ function mostraInfo(elemento) {
         serv16.style = 'display: none;'
 
         serv17.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } 
 
@@ -393,7 +425,8 @@ function mostraInfo2(elemento2) {
         serv23.style = 'display: none;'
 
         serv18.style = 'display: block;'
-    
+
+        window.scrollBy(0, 150)
 
     } else if (elemento2.value == 19) {
         serv18.style = 'display: none;'
@@ -404,7 +437,7 @@ function mostraInfo2(elemento2) {
 
         serv19.style = 'display: block;'
  
-
+        window.scrollBy(0, 150)
                     
     } else if (elemento2.value == 20) {
         serv18.style = 'display: none;'
@@ -414,6 +447,8 @@ function mostraInfo2(elemento2) {
         serv23.style = 'display: none;'
 
         serv20.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento2.value == 21) {
         serv18.style = 'display: none;'
@@ -423,6 +458,8 @@ function mostraInfo2(elemento2) {
         serv23.style = 'display: none;'
 
         serv21.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento2.value == 22) {
         serv18.style = 'display: none;'
@@ -432,6 +469,8 @@ function mostraInfo2(elemento2) {
         serv23.style = 'display: none;'
 
         serv22.style = 'display: block;'
+
+        window.scrollBy(0, 150)
         
     } else if (elemento2.value == 23) {
         serv18.style = 'display: none;'
@@ -441,6 +480,8 @@ function mostraInfo2(elemento2) {
         serv22.style = 'display: none;'
 
         serv23.style = 'display: block;'
+
+        window.scrollBy(0, 150)
     }
 }
 
